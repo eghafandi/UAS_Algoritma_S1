@@ -1,0 +1,17 @@
+START
+Input jumlah kandidat (n) dan pemilih (v)
+Input nama setiap kandidat
+Inisialisasi suara kandidat = 0
+
+FOR setiap pemilih DO
+    Input pilihan kandidat
+    IF pilihan valid THEN
+        Tambah suara kandidat terpilih
+    ELSE
+        Tampilkan "Invalid"
+        Ulangi input pemilih
+    ENDIF
+ENDFOR
+
+Tampilkan hasil suara setiap kandidat
+END
