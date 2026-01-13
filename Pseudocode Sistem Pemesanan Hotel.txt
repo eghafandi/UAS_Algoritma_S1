@@ -1,0 +1,16 @@
+START
+Inisialisasi tipe, harga, dan status kamar
+DO
+    Tampilkan daftar kamar dan status
+    Input pilihan kamar
+    IF pilihan valid dan kamar tersedia THEN
+        Input lama menginap
+        Ubah status kamar menjadi penuh
+        Hitung dan tampilkan total bayar
+    ELSE
+        Tampilkan pesan error
+    ENDIF
+    Input ulang (y/n)
+WHILE ulang = y
+Tampilkan "Terima kasih"
+END
